@@ -28,7 +28,7 @@ def index():
     print(url_for('index'))
     print(url_for('hello'))
     name = 'Erika'
-    friends = ['Viviana', 'Andrés', 'Thomas', 'Gilberto']
+    friends = ['Robótica', 'Tecnovigilancia', 'Biomateriales', 'Procesamiento de imagenes diagnósticas']
     date = datetime.now()
     return render_template('index.html', 
         name = name, 
