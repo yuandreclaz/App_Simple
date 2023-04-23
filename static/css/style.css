@@ -8,3 +8,11 @@ body{
 h1{
     color: rgb(118, 12, 179);
 }
+
+/*HEADER 
+Menu de Navegación*/
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+  }
