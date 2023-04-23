@@ -9,17 +9,21 @@
    </head>
 
    <body>
+      <header>
+         <nav class="navbar">
+            <div class="contenedor">
+               <ul>
+                  <li><a href="{{ url_for('index') }}">Inicio</a></li>
+                  <li><a href="{{ url_for('hello') }}">Hola</a></li>
+                  <li><a href="{{ url_for('register') }}">Registrar usuario</a></li>
+               </ul>
+            </div>
+         </nav>
+   
+         <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+      </header>
     
-      <nav>
-         <ul>
-            <li><a href="{{ url_for('index') }}">Inicio</a></li>
-            <li><a href="{{ url_for('hello') }}">Hola</a></li>
-            <li><a href="{{ url_for('register') }}">Registrar usuario</a></li>
-         </ul>
-       </nav>
-
-      <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>
-
+      
       {% block content %}
        <!-- Bloque de contenido -->
        {% endblock %}
