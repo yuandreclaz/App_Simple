@@ -1,7 +1,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: #ccc;
+    background-color: #bddeeb;
 
 }
 
@@ -11,8 +11,8 @@ h1{
 
 /*HEADER 
 Menu de Navegación*/
-.navbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 90px;
+.img_header{
+    width:  520px;
+    margin-right: 30px;
+    padding: 10px;
   }
