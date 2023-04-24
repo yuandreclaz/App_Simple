@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +18,13 @@
                <h1>ACADEMIA DE HISTORIA Y BELLAS ARTES</h1>
             </div>
          </nav>
+         {% block image%}
          <div class="contenedor-imagen">
             <a href="">
                <img class="img-header" src="static/img/Obras-de-arte.jpg" alt="imagen header">
             </a>
          </div>
+         {% endblock %}
          <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>  
       </header>
     
