@@ -11,19 +11,19 @@
    <body>
       <header>
          <nav class="navbar">
-            <div class="contenedor">
-               <ul>
-                  <li><a href="{{ url_for('index') }}">Inicio</a></li>
-                  <li><a href="{{ url_for('hello') }}">Hola</a></li>
-                  <li><a href="{{ url_for('register') }}">Registrar usuario</a></li>
-               </ul>
-               <h1>ACADEMIA DE DIBUJO Y PINTURA</h1>
+            <div class="nav-link">
+                  <a class="nav-link a"  href="{{ url_for('index') }}">Inicio</a>
+                  <a class="nav-link a"  href="{{ url_for('hello') }}">Hola</a>
+                  <a class="nav-link a"  href="{{ url_for('register') }}">Registrar usuario</a>
+               <h1>ACADEMIA DE HISTORIA Y BELLAS ARTES</h1>
             </div>
          </nav>
          <div class="contenedor-imagen">
-            <img class="img_header" src="static/img/Medi_header.jpg" alt="imagen header">
+            <a href="">
+               <img class="img-header" src="static/img/Obras-de-arte.jpg" alt="imagen header">
+            </a>
          </div>
-         <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+         <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>  
       </header>
     
       
