@@ -1,12 +1,13 @@
 
 {% extends 'base.html' %}
+{% block image %} {% endblock %}
 
 {% block title%} Página de Hello {% endblock %}
 
 {%  block content %}
 
     {% if data.name == none and data.age == none %}
-        <h1>Hola Mundo!</h1>
+        <h1>Hola Mundo Artístico!</h1>
     {% elif data.age == none %}
         <h1> Hola {{data.name}} !! </h1> 
     {% elif data.email == none %}
