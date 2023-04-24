@@ -28,11 +28,11 @@ def index():
     print(url_for('index'))
     print(url_for('hello'))
     name = 'Erika'
-    friends = ['Plásticas', 'Ilustración', 'Obras Retórica', 'Obras Escultóricas']
+    tecnicas = ['Plásticas', 'Ilustración', 'Obras Retórica', 'Obras Escultóricas']
     date = datetime.now()
     return render_template('index.html', 
         name = name, 
-        friends = friends, 
+        tecnicas = tecnicas, 
         date = date,    
     )
 
